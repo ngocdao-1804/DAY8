@@ -1,17 +1,40 @@
-// Bai3
-const averageScores = [10,5,6,7,9];
-const hasUnderAverageScores = averageScores.some(
+//bai4
+const mathScores = [10,5,6,7,9,1,8,3,4,2];
+const newScores = mathScores.map(
     (number) => {
-        return number <5;
+        if(number === 10){
+            return number =10
+        } else{
+        return number+1;    
+        }
+        
     }
 )
-console.log(hasUnderAverageScores ? `co sinh vien duoi trung binh`:`khong ban nao duoi trung binh`);
-const allPass = averageScores.every(
-    (number)=> {
-        return number >=5;
-    }
-)
-console.log(CouldAllPass ? `tat ca deu qua mon`:`van con sinh vien khong qua mon`);
+console.log(newScores);
+//MAP
+// const numbers=[1,2,3,4,6,7,8,9,10,11];
+// const newNumbers = numbers.map(
+//     (number)=> {
+//         return number*2;
+//     }
+// );
+// console.log(newNumbers)
+
+//  Bai3
+// const averageScores = [10,5,6,7,9,1,8,3,4,2];
+// const hasUnderAverageScores = averageScores.some(
+//     (number) => {
+//         return number <5;
+//     }
+// )
+// console.log(hasUnderAverageScores ? `co sinh vien duoi trung binh`:`khong ban nao duoi trung binh`);
+// const CouldAllPass = averageScores.every(
+//     (number)=> {
+//         return number >=5;
+//     }
+// )
+// console.log(CouldAllPass ? `tat ca deu qua mon`:`van con sinh vien khong qua mon`);
+
 //Every
 // const isAllOddNumbers = numbers.every(
 //     (number) => {
@@ -23,8 +46,8 @@ console.log(CouldAllPass ? `tat ca deu qua mon`:`van con sinh vien khong qua mon
  * có boolean => phải có const/let,...
  * */
 // const numbers=[1,2,3,4,6,7,8,9,10,11];
-// const hasEvenNumbers = numbers.some(
-//     (numbers, index)=> numbers%2===0;
+// const hasEvenNumbers = number.some(
+//     (number, index)=> number%2===0;
 // )
 // console.log(hasEvenNumbers);
 
