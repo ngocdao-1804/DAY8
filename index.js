@@ -1,16 +1,22 @@
 //bai4
-const mathScores = [10,5,6,7,9,1,8,3,4,2];
-const newScores = mathScores.map(
-    (number) => {
-        if(number === 10){
-            return number =10
-        } else{
-        return number+1;    
-        }
+// const mathScores = [10,5,6,7,9,1,8,3,4,2];
+// const newScores = mathScores.map(
+//     (number) => {
+//         if(number === 10){
+//             return 10
+//         } else{
+//         return number+1;    
+//         }
         
-    }
-)
-console.log(newScores);
+//     }
+// )
+// console.log(newScores);
+
+//tham khao toan tu 3 ngoi
+//const mathScores = [1,2,3,4,5,6,7,8,9,10];
+// const updatedMathScores = mathScores.map(score => score < 10 ? score + 1 : score);
+// console.log(updatedMathScores);
+
 //MAP
 // const numbers=[1,2,3,4,6,7,8,9,10,11];
 // const newNumbers = numbers.map(
