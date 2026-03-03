@@ -11,7 +11,7 @@ const allPass = averageScores.every(
         return number >=5;
     }
 )
-console.log(allPass ? `tat ca deu qua mon`:`van con sinh vien khong qua mon`);
+console.log(CouldAllPass ? `tat ca deu qua mon`:`van con sinh vien khong qua mon`);
 //Every
 // const isAllOddNumbers = numbers.every(
 //     (number) => {
